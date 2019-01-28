@@ -4,6 +4,7 @@ module.exports = {
       authorFirstname: `Robert`,
       authorSurname: `Diao`,
     },
+
     plugins: ['gatsby-plugin-react-helmet'],
 }
   
