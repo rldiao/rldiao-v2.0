@@ -1,0 +1,21 @@
+.cell {
+    width: 650px;
+}
+
+.timePlace{
+    display: flex;
+    justify-content: space-between;
+}
+
+.place {
+    font-weight: 700;
+    font-size: 120%;
+    color: rgba(231, 90, 124, 1);
+}
+
+.time {
+    font-style: italic;
+}
+
+.position {
+}
