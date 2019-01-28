@@ -11,6 +11,14 @@ html {
     background-color:white;
     font-family: 'Karla', sans-serif;
     color: black;
+    font-size: 62.5%;
+}
+
+.main {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 100px;
 }
 
 .center {
@@ -22,4 +30,12 @@ html {
 .subheading {
     font-size: 100px;
     padding-bottom: 100px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #77dd77;
 }

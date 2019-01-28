@@ -6,10 +6,10 @@ export default class ProjectCell extends Component {
     return (
       <div className={styles.cell}>
         <div className={styles.timePlace}>
-            <div className={styles.place}>Title</div>
-            <div className={styles.time}>Date</div>
+            <div className={styles.place}>{this.props.title}</div>
+            <div className={styles.time}>{this.props.date}</div>
         </div>
-        <div className={styles.position}>Position</div>
+        <div className={styles.discription}>{this.props.discription}</div>
       </div>
     )
   }

@@ -1,0 +1,46 @@
+.subheadings {
+    color: lightskyblue;
+    font-size: 4rem;
+}
+
+.intro {
+    padding: 0 100px;
+    padding-bottom: 200px;
+}
+
+.introHello{
+    font-size: 5rem;
+    padding-bottom: 10rem;
+}
+
+.introTagline {
+    font-size: 5rem;
+    max-width: 700px;
+    padding-bottom: 10rem;
+}
+
+.introEmail {
+    font-size: 3rem;
+}
+
+.background {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.backgroundTextContainer {
+    font-size: 2rem;
+    max-width: 700px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.projectsTable {
+    font-size: 2rem;
+    max-width: 700px;
+}
