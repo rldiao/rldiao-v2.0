@@ -1,0 +1,18 @@
+/*
+Color Pallet
+$color1: rgba(44, 54, 63, 1);
+$color2: rgba(231, 90, 124, 1);
+$color3: rgba(242, 245, 234, 1);
+$color4: rgba(214, 219, 210, 1);
+$color5: rgba(187, 199, 164, 1);
+*/
+
+html {
+    background-color: rgba(44, 54, 63, 1);
+}
+
+h1 {
+    color: rgba(242, 245, 234, 1);
+    font-family: 'Karla', sans-serif;
+    font-size: 100px;
+}
