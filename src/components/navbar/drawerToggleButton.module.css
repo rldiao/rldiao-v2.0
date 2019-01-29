@@ -1,9 +1,0 @@
-.menuButton {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.menuButton:focus {
-    outline: none;
-}

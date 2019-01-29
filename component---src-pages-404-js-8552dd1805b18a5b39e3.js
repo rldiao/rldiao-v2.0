@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{138:function(n,e,t){"use strict";t.r(e);var o=t(0),u=t.n(o);e.default=function(){return u.a.createElement("div",null,"404 Page Not Found!")}}}]);
+//# sourceMappingURL=component---src-pages-404-js-8552dd1805b18a5b39e3.js.map

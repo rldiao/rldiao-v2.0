@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{139:function(n,e,o){"use strict";o.r(e),o.d(e,"default",function(){return i});var t=o(0),u=o.n(t);function i(){return u.a.createElement("div",null,"Coming Soon!")}}}]);
+//# sourceMappingURL=component---src-pages-coming-soon-js-93fad1c2e2e748809403.js.map
