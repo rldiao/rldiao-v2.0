@@ -13,11 +13,13 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "gatsby": "^2.0.76",
     "gatsby-plugin-react-helmet": "^3.0.5",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-helmet": "^5.2.0",
+    "reactstrap": "^7.1.0"
   },
   "repository": {
     "type": "git",
@@ -25,5 +27,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

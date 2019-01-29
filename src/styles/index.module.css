@@ -1,11 +1,13 @@
 .subheadings {
     color: lightskyblue;
     font-size: 4rem;
+    padding-bottom: 3rem;
 }
 
 .intro {
-    padding: 0 100px;
+    padding: 0 10%;
     padding-bottom: 200px;
+    min-height: 80vh;
 }
 
 .introHello{
@@ -24,9 +26,9 @@
 }
 
 .background {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 200px;
 }
 
 .backgroundTextContainer {
@@ -35,12 +37,27 @@
 }
 
 .projects {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 200px;
 }
 
 .projectsTable {
     font-size: 2rem;
     max-width: 700px;
+}
+
+@media (max-width: 850px) {
+    .introHello{
+        font-size: 5vw;
+    }
+    
+    .introTagline {
+        font-size: 5vw;
+        max-width: 700px;
+    }
+
+    .introEmail {
+        font-size: 3vw;
+    }
 }

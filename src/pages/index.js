@@ -4,6 +4,10 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/Layout";
 import styles from "../styles/index.module.css"
 import ProjectCells from "../components/cells/ProjectCell"
+import Header from "../components/header/Header"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default ({ data }) => 
 <Layout>
@@ -11,7 +15,9 @@ export default ({ data }) =>
           <meta charSet="utf-8" />
           <title>{data.site.siteMetadata.title}</title>
           <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"></link>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></link>
     </Helmet>
+    <Header></Header>
     <div className="main">
     {/* Intro Section */}
         <div className={styles.intro}>
@@ -32,6 +38,7 @@ export default ({ data }) =>
         </div>
     {/* Project Section */}
         <div className={styles.projects}>
+          <div className={styles.subheadings}>Projects</div>
           <div className={styles.projectsTable}>
             <ProjectCells title="Catalyst Hack" date="Nov 2018" 
             discription="Designed and developed a web platform to help the communication between universities and
@@ -50,7 +57,6 @@ export default ({ data }) =>
             discription="Designed and developed an AI system to play a custom boardgame by utilizing algorithms and data
             structures such as the Minimax tree and A star. Developed on Python 3."></ProjectCells>
           </div>
-          <div className={styles.subheadings}>Projects</div>
         </div>
     </div>
 </Layout>

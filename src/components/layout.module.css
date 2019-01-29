@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navBar {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;  
+}
+
+.toggle {
+    background-color: white;
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;  
+    text-align: right;
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+
+@media (max-width: 800px) {
+    .toggle {
+        display: block;
+    }
+
+    .navBar {
+        display: none;
+        top: 100px;
+    }
+}
