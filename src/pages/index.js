@@ -4,7 +4,6 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/Layout";
 import styles from "../styles/index.module.css"
 import ProjectCells from "../components/cells/ProjectCell"
-import Header from "../components/header/Header"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -15,9 +14,7 @@ export default ({ data }) =>
           <meta charSet="utf-8" />
           <title>{data.site.siteMetadata.title}</title>
           <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"></link>
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></link>
     </Helmet>
-    <Header></Header>
     <div className="main">
     {/* Intro Section */}
         <div className={styles.intro}>

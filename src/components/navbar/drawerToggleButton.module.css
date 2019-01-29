@@ -1,9 +1,20 @@
 .menuButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: transparent;
     border: none;
     cursor: pointer;
+    height: 30px;
+    width: 40px;
 }
 
 .menuButton:focus {
     outline: none;
+}
+
+.menuLine {
+    width: 30px;
+    height: 2px;
+    background: black;
 }

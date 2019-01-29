@@ -25,6 +25,10 @@
     font-size: 3rem;
 }
 
+.introEmail a:hover {
+    color: #77dd77;
+}
+
 .background {
     display: grid;
     justify-content: center;

@@ -3,7 +3,9 @@ import styles from './drawerToggleButton.module.css'
 
 const drawerToggleButton = props => (
     <button className={styles.menuButton} onClick={props.click}>
-        <i className="fas fa-bars" style={{fontSize: "3rem", color: "black"}}></i>
+        <div className={styles.menuLine}></div>
+        <div className={styles.menuLine}></div>
+        <div className={styles.menuLine}></div>
     </button>
 );
 

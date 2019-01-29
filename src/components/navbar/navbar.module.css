@@ -22,6 +22,12 @@
     font-size: 5rem;
 }
 
+.toolbarLogo a:hover,
+.toolbarLogo a:active {
+    color: rgba(231, 90, 124, 1);
+    text-decoration: none;
+}
+
 .toolbarNavigationItems ul {
     list-style: none;
     margin: 0;
@@ -30,7 +36,7 @@
 }
 
 .toolbarNavigationItems li {
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .toolbarNavigationItems a {
@@ -42,6 +48,7 @@
 .toolbarNavigationItems a:hover,
 .toolbarNavigationItems a:active {
     color: rgba(231, 90, 124, 1);
+    text-decoration: none;
 }
 
 @media (max-width: 800px) {
@@ -50,7 +57,7 @@
     }
 }
 
-@media (min-width: 799px) {
+@media (min-width: 800px) {
     .drawerToggleButton {
         display: none;
     }
