@@ -52,16 +52,21 @@
 }
 
 @media (max-width: 850px) {
+    .intro{
+        padding: 0;
+    }
+
     .introHello{
-        font-size: 5vw;
+        font-size: 7vw;
+        padding-bottom: 50px;
     }
     
     .introTagline {
-        font-size: 5vw;
+        font-size: 7vw;
         max-width: 700px;
     }
 
     .introEmail {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 }

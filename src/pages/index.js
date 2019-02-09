@@ -19,7 +19,7 @@ export default ({ data }) =>
     {/* Intro Section */}
         <div className={styles.intro}>
           <div className={styles.introHello}>Hello!</div>
-          <div className={styles.introTagline}>I'm Robert, a budding software engineer who is on a path to world domination. Please take a look around my site!</div>
+          <div className={styles.introTagline}>I'm Robert, a software engineer who is on a path to world domination. Please take a look around my site!</div>
           <span className={styles.introEmail}>Want to join forces? -> </span>
           <span className={styles.introEmail}>
             <a href="mailto:rdiao.work@gmail.com" target="_blank" rel="noopener noreferrer">rdiao.work@gmail.com</a>
@@ -30,7 +30,7 @@ export default ({ data }) =>
           <div className={styles.subheadings}>Background</div>
           <p className={styles.backgroundTextContainer}>
             I am currently a student at The University of Melbourne studying Computing and Software. I love going to Hackathons and discussing the future.
-            I hope to use the skills I aquire to one day make a small difference in the world.            
+            I hope to use the skills I acquire to one day make a small difference in the world.            
           </p>
         </div>
     {/* Project Section */}
