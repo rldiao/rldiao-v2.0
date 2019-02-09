@@ -40,7 +40,7 @@ export default ({ data }) =>
             <ProjectCells title="Catalyst Hack" date="Nov 2018" 
             discription="Designed and developed a web platform to help the communication between universities and
             students with features such as subject recommendations and reviews. Developed on the React
-            framework with Node.js."></ProjectCells>
+            framework."></ProjectCells>
             <ProjectCells title="Hack the City" date="Sep 2018" 
             discription="Planned and designed a business case for an asset management system to help reduce asset loss for
             Downer and Spotless. "></ProjectCells>
