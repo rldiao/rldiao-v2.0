@@ -20,6 +20,7 @@
 .toolbarLogo a {
     color: black;
     font-size: 5rem;
+    text-decoration: none;
 }
 
 .toolbarLogo a:hover,

@@ -7,12 +7,15 @@ $color4: rgba(214, 219, 210, 1);
 $color5: rgba(187, 199, 164, 1);
 */
 
-html {
+html,
+body {
     background-color:white;
-    font-family: 'Karla', sans-serif;
     color: black;
     font-size: 62.5%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .main {
