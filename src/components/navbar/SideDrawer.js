@@ -11,10 +11,9 @@ export default function Drawer(props) {
     return (
         <nav className={drawerClasses}>
             <ul>
-                <li><a href={appRoutes.home}>Home</a></li>
-                <li><a href={appRoutes.comingsoon}>About</a></li>
+                <li><a href={appRoutes.about}>About</a></li>
                 <li><a href={appRoutes.comingsoon}>Blog</a></li>
-                <li><a href={appRoutes.comingsoon}>Resume</a></li>
+                <li><a href={appRoutes.resume}>Resume</a></li>
             </ul>
         </nav>
     )

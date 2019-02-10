@@ -4,6 +4,8 @@ import MenuButton from '../buttons/MenuButton'
 
 import { Button } from 'reactstrap';
 
+// Not currently used - REDUNDENT
+
 export default class Navbar extends Component {
     constructor(props) {
         super(props);

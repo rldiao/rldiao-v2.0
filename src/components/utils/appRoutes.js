@@ -1,6 +1,6 @@
 export default {
     home: '/',
-    about: '/about/',
+    about: '/',
     blog: '/blog/',
     notfound: '/404/',
     comingsoon: '/comingSoon/'

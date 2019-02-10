@@ -6,14 +6,14 @@ import styles from "../styles/index.module.css"
 import ProjectCells from "../components/cells/ProjectCell"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import externalLinks from "../components/utils/externalLinks";
 
 
 export default ({ data }) => 
 <Layout>
     <Helmet>
-          <meta charSet="utf-8" />
-          <title>{data.site.siteMetadata.title}</title>
-          <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"></link>
+        <meta charSet="utf-8" />
+        <title>{data.site.siteMetadata.title}</title>
     </Helmet>
     <div className="main">
     {/* Intro Section */}
@@ -22,7 +22,7 @@ export default ({ data }) =>
           <div className={styles.introTagline}>I'm Robert, a software engineer who is on a path to world domination. Please take a look around my site!</div>
           <span className={styles.introEmail}>Want to join forces? -> </span>
           <span className={styles.introEmail}>
-            <a href="mailto:rdiao.work@gmail.com" target="_blank" rel="noopener noreferrer">rdiao.work@gmail.com</a>
+            <a href={externalLinks.email} target="_blank" rel="noopener noreferrer">rdiao.work@gmail.com</a>
           </span>
         </div>
     {/* Backgrond Section */}

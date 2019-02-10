@@ -1,9 +1,10 @@
 import React from 'react'
+import Layout from '../components/Layout';
 
 export default function () {
   return (
-    <div>
-        404 Page Not Found!
-    </div>
+    <Layout>
+        <div style={{fontSize: '3rem'}}> 404 Page not found!</div>
+    </Layout>
   )
 }
