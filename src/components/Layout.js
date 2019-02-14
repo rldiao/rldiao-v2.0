@@ -14,7 +14,9 @@ export default ({ children, data }) => (
     </Helmet>
     <Header />
     <div className={styles.headerSpacer}></div>
-    {children}
+    <div className={styles.content}>
+      {children}
+    </div>
     <Footer />
   </div>
 )

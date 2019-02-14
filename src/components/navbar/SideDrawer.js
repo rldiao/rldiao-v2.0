@@ -13,7 +13,7 @@ export default function Drawer(props) {
         <nav className={drawerClasses}>
             <ul>
                 <li><a href={appRoutes.about}>About</a></li>
-                <li><a href={appRoutes.comingsoon}>Blog</a></li>
+                <li><a href={appRoutes.blog}>Blog</a></li>
                 <li><a href={Resume} target='_blank' rel='noopener noreferrer'>Resume</a></li>
             </ul>
         </nav>

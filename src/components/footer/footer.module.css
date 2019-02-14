@@ -1,3 +1,7 @@
+/* .footer {
+    flex-shrink: 0;
+} */
+
 .footerBar {
     background-color: white;
     height: 8rem;
@@ -5,7 +9,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .footerText {

@@ -1,9 +1,14 @@
 .container {
     width: 100%;
     min-height: 100%;
-    position: relative;
+    /* position: relative; */
     right: 0;
     left: 0;
+}
+
+.content {
+    /* 8rem for top and bottom bars */
+    min-height: calc(100vh - 8rem - 8rem);
 }
 
 .navBar {

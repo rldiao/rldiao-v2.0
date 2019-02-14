@@ -1,0 +1,23 @@
+.blogPostContainer {
+    margin: 0 15%;
+    padding-top: 30px;
+}
+
+/* .blogPost {
+    
+} */
+
+.blogPostContent {
+    font-size: 2rem;
+}
+
+.returnBtn a {
+    color: rgba(231, 90, 124, 1);
+    font-size: 3rem;
+    margin-bottom: 75px;
+}
+
+.returnBtn a:hover,
+.returnBtn a:active {
+    color: rgba(231, 90, 124, 1);
+}

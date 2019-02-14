@@ -4,7 +4,7 @@ import externalLinks from '../utils/externalLinks'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className={styles.footer}>
         <div className={styles.footerBar}>
             <div className={styles.footerText}>Stay in touch!</div>
             <div className={styles.footerNavigation}>
