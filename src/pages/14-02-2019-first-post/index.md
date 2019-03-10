@@ -1,9 +1,9 @@
 ---
 path: "/hello-world"
 date: "2019-02-14"
-title: "My First Post And About The Site"
+title: "Hello World!"
 ---
-Finally!!! My first blog post. After what seemed to be forever. I have finally got around to setting up the blogging workflow on my sight. 
+Finally!!! My first blog post. After what seemed to be forever. I have finally got around to setting up the blogging workflow on my site. 
 
 I have learnt a lot about front end development by creating this site. Initially, I wanted to create a site as a project with no real intentions, but as I continued researching and looking into other people's sites, I slowly realised that there is a lot of value in creating one. 
 

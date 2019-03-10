@@ -17,7 +17,7 @@ export default function blog( {data} ) {
                 <h1>
                   <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
                 </h1>
-                <h2>{post.frontmatter.date}</h2>
+                <div className="blog-date">{post.frontmatter.date}</div>
                 <p>{post.excerpt}</p>
               </div>
             );

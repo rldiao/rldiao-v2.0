@@ -3,6 +3,11 @@
     padding-top: 30px;
 }
 
+/* Blog paragraph spacing */
+p {
+    padding-bottom: 1.5rem;
+}
+
 /* .blogPost {
     
 } */

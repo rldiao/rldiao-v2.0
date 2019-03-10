@@ -13,7 +13,7 @@ h1 > * {
     font-size: 3rem;
     text-decoration-line: none;
 }
-h2 {
+.blog-date {
     font-size: 1.5rem !important;
     font-weight: 100 !important;
 }

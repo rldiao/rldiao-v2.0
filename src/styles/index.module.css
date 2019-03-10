@@ -43,7 +43,7 @@
 .projects {
     display: grid;
     justify-content: center;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
 }
 
 .projectsTable {
