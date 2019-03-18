@@ -1,3 +1,7 @@
+.container {
+    margin: 0 10%;
+}
+
 .subheadings {
     color: lightskyblue;
     font-size: 4rem;
@@ -7,8 +11,16 @@
 .intro {
     padding: 0 10%;
     padding-bottom: 200px;
-    min-height: 80vh;
+    padding-bottom: 10%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/* .introSubContainer {
+
+} */
 
 .introHello{
     font-size: 5rem;
@@ -32,7 +44,7 @@
 .background {
     display: grid;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 20rem;
 }
 
 .backgroundTextContainer {
@@ -43,12 +55,12 @@
 .projects {
     display: grid;
     justify-content: center;
-    /* padding-bottom: 200px; */
 }
 
 .projectsTable {
     font-size: 2rem;
     max-width: 700px;
+    padding-block-end: 15rem;
 }
 
 @media (max-width: 850px) {

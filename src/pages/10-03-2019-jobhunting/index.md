@@ -16,7 +16,7 @@ A bit of a self introduction for those of you who don't know. My name is Robert 
 ## What does a healthy mindset look like?
 
 
-Job hunting is tough for everyone, but especially as a student. It's easy for use to feel we are inadequate or lacking when all see are rejections, but this is usually not the case. As someone who is currently in this position, I have found that we need to shift our understanding of success when hunting. Success isn't necessarily when we get that acceptance offer. It should be when we are achieving incremental goals that we are setting for ourselves; for example, when we can consistently get to the phone interview stage or on-site assessment. This way when we are achieving these incremental goals, we feel rewarded, and when we fail, we don't feel like we didn't achieve anything. 
+Job hunting is tough for everyone, but especially as a student. It's easy for us to feel we are inadequate or lacking when all see are rejections, but this is usually not the case. As someone who is currently in this position, I have found that we need to shift our understanding of success when hunting. Success isn't necessarily when we get that acceptance offer. It should be when we are achieving incremental goals that we are setting for ourselves; for example, when we can consistently get to the phone interview stage or on-site assessment. This way when we are achieving these incremental goals, we feel rewarded, and when we fail, we don't feel like we didn't achieve anything. 
 
 
 ## Why did I get rejected?

@@ -1,8 +1,9 @@
 import React from "react"
-import styles from "./layout.module.css"
 import Header from './header/Header'
-import Footer from "./footer/Footer";
-import { Helmet } from "react-helmet"
+import Footer from './footer/Footer'
+import { Helmet } from 'react-helmet'
+
+import styles from './layout.module.css'
 
 
 export default ({ children, data }) => (
