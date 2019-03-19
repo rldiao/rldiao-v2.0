@@ -6,6 +6,8 @@
     Navigate into your new site’s directory and start it up.
 
     ```sh
+    npm install
+
     gatsby develop
     ```
 
@@ -17,4 +19,4 @@
 
 ## Deploy
 
-  npm run deploy
+        npm run deploy

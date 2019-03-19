@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px - 80px);
+    overflow: auto;
+}
+
+.form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 3rem;
+}
+
+.header {
+    font-size: 3rem;
+    margin-block-end: 3rem;
+}
+
+.labelText {
+    font-size: 2rem;
+}
+
+.textArea {
+    height: 200px;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: center;
+    margin-block-end: 4rem;
+}

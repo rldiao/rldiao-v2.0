@@ -26,7 +26,7 @@ export default ({ data }) =>
         <div className={styles.intro}>
           <div className={styles.introSubContainer}>
             <div className={styles.introHello}>Hello!</div>
-            <div className={styles.introTagline}>I'm Robert, a software engineer who is on a path to world domination. Please take a look around my site!</div>
+            <div className={styles.introTagline}>I'm Robert, a aspiring technologist who is on a path to world domination. Please take a look around my site!</div>
             <span className={styles.introEmail}>Want to join forces? -> </span>
             <span className={styles.introEmail}>
               <a href={externalLinks.email} target="_blank" rel="noopener noreferrer">rdiao.work@gmail.com</a>
