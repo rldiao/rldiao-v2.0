@@ -21,15 +21,14 @@ also provides many mentors which can help with workflow, pitching or technology.
 
 ## What did we do?
 
-My team this year consisted of 5 members. After some ideation, we decided to work on the problem of personal safety. We developed a mobile app that 
-solved the issue of having to communicate many people that you got home safe. It worked by the user touching a button and sending
-all their loved ones that they added that they are safe. We imagined that it will be used mainly when going home and night, or
-as a way to check up on your elderly parents. We built upon this idea by introducing scheduling check-ups on people
-and live location sharing. We really focused the product on young party goers, parents and elderly. We developed the app on React Native (Expo)
-and used Firebase as our backend database. 
+My team this year consisted of 5 members. After some ideation, we decided to work on how to improve personal safety. It was decided that we will work on mobile app
+application which would communicate your safety and status to friends and family. It worked by having the user touch a button and broadcasting a notificiation
+to your selected group of recievers who would be notified of your safety. We imagined that it will be mainly used by people who feel unsafe when heading home from a late night
+, or parents who would want to check up on their children's status. The idea was then built upon by introducing the ability to schedule check-ups 
+and live location sharing. We really focused on the simplicity of use, and being as out of the users life as possible so they can focus on their lives.
 
 ## Conclusion
 
-Unihack 2019 was another great learning experience. Learning React Native (Expo) within the hackathon was very challenging. We faced many unfamiliar bugs and development challenges. 
-However, I personally enjoyed the experience very much, and with graduation on the horizon, this is probably the last time I will be at Unihack as a competitor. Hopefully 
-I can return to Unihack one day as a organiser or mentor.
+Unihack 2019 was another great learning experience. Learning React Native (Expo) within the 24 hours was very challenging. We faced many unfamiliar bugs and development challenges. 
+However, I personally enjoyed the experience very much, and with graduation on the horizon, this is probably the last time that I will be able to attend Unihack as a competitor. Hopefully 
+I can return to one day as a organiser or mentor.
