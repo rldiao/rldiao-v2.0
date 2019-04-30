@@ -2,7 +2,7 @@ import React from "react";
 import appRoutes from "../utils/appRoutes";
 
 import "./sidedrawer.css";
-import Resume from "../documents/resume.pdf";
+import Resume from "../../../static/assets/documents/resume.pdf";
 
 export default function Drawer(props) {
   let drawerClasses = "drawer";
