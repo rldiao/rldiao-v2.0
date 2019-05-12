@@ -1,4 +1,3 @@
-
 ## Quick start
 
 1.  **Start developing.**
@@ -19,4 +18,4 @@
 
 ## Deploy
 
-        npm run deploy
+    npm run deploy

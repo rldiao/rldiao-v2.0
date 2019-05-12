@@ -1,11 +1,13 @@
-import React from 'react'
-import MenuButton from '../components/buttons/MenuButton';
-import Layout from '../components/Layout';
+import React from "react";
+import Layout from "../components/Layout";
 
 export default function test() {
   return (
     <Layout>
-      <MenuButton text={'Hello'}></MenuButton>
+      <div>what</div>
+      <div>is</div>
+      <div>this</div>
+      <div>hi</div>
     </Layout>
-  )
+  );
 }
